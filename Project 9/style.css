@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Montserrat&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.mainmenu{
+
+    height: 2000px;
+    width: 600px;
+
+
+}
+
+.navbar ,ol,a{
+    opacity: 0.9;
+    width: 1519px;
+    height: 60px;
+    text-decoration: none;
+    background-color: #457b9d;
+    
+    
+}
+.right{
+
+float: right;
+position: relative;
+right: 80px;
+font-size: 20px;
+color:#7FE9DE;
+text-shadow: 3px 2px 3px  black;
+height: 20px;
+width: 60px;
+margin-top: 17px;
+margin-left: 20px;
+font-family: 'JetBrains Mono', monospace;
+
+
+
+}
+.right:hover{
+    transition:(0.5ms);
+    color: black;
+    font-size: 20px;
+    transform: 0.5s;
+
+}
+
+
+.picture{
+
+border-style: solid;
+
+}
+
+
+
+
+body{
+
+    background-image: url(img/wp2336427.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 1000px;
+    
+    
+    
+    
+    
+    
+}
+
+
+
+.pictureone{
+
+  
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    border-radius: 20px 20px 35px 20px;
+
+}
+
+.picturetwo{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    top: 700px;
+    margin-left: 880px;
+    z-index: 1;
+    border-radius: 20px 20px 20px 35px;
+}
+
+
+.picturethree{
+    position: absolute;
+    top: 1200px;
+    left: 250px;
+    border-radius: 20px 20px 35px 20px;
+    width: 350px;
+    height: 400px;
+
+}
+
+
+
+#one{
+
+    position: relative;
+    object-fit: fill;
+    display: flex;
+    height: 400px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px 20px 35px 20px;
+ 
+
+}
+
+
+
+#two{
+
+    position: absolute;
+    object-fit: fill;
+    overflow: hidden;
+    display: flex;
+    height: 400px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px 20px 35px 20px;
+
+}
+
+#three{
+
+    position: relative;
+    object-fit: fill;
+    display: flex;
+    height: 400px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px 20px 35px 20px;
+
+}
+
+
+#logo{
+
+    position: absolute;
+    left: 0px;
+   box-shadow: 5px 5px 10px 10px black;
+    object-fit: fill;
+    height: 60px;
+    width: 70px;
+    
+
+
+}
+
+#head{
+
+    position: absolute;
+    left: 650px;
+    top:10px;
+    color: #7FE9DE;
+    text-shadow: 5px 5px 10px black;
+
+}
+
+
+.paragraf1{
+   position: absolute;
+   background-color: #B9D7EA;
+   border-radius: 20px 20px 25px 30px;
+    width: 560px;
+    height: 380px;
+    left: 650px;
+    top: 160px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.paragraf2{
+
+    position: absolute;
+    
+    border-radius: 20px 20px 25px 30px;
+    width: 605px;
+    height: 380px;
+    left: 240px;
+    top: 715px;
+    background-color: #B9D7EA;
+    font-family: 'JetBrains Mono', monospace;
+
+}
+
+.paragraf3{
+
+    position: absolute;
+    background-color: #B9D7EA;
+    border-radius: 20px 25px 20px 20px;
+     width: 560px;
+     height: 380px;
+     left: 650px;
+     top: 1200px;
+     font-family: 'JetBrains Mono', monospace;
+
+}
+
+
+
+
+
+.paragraf1 h1{
+    font-size: 25px;
+    color: #2B3A55;
+    top: 10px;
+    position: relative;
+    text-align: center;
+}
+.paragraf2 h1{
+    font-size: 25px;
+    color: #2B3A55;
+    top: 10px;
+    position: relative;
+    text-align: center;
+}
+.paragraf3 h1{
+    font-size: 25px;
+    color: #2B3A55;
+    top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.paragraf1 p{
+   
+    position: relative;
+    top: 40px;
+}
+
+
+.paragraf2 p{
+    
+    position: relative;
+    top: 20px;
+}
+
+.paragraf3 p{
+    
+    position: relative;
+    top: 40px;
+}
+
+
+footer{
+
+    background-color: #769FCD;
+    height: 75px;
+    opacity: 0.7;
+    border-radius: 15px;
+    width: 1515px;
+    font-family: 'JetBrains Mono', monospace;
+    
+}
+
+footer a {
+    position: relative;
+    left: 645px;
+    color: wheat;
+    margin-left: 15px;
+    opacity: 0.9;
+    top: 10px;
+    background-color: #769FCD;
+    
+
+}
+ 
+ footer a i:hover{
+    transform: scale(1.09);
+    transition: 0.1s;
+    color: #4C6793;
+    
+    
+    
+}
